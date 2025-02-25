@@ -1,0 +1,369 @@
+@media only screen and (max-width: 600px) {
+  .nav-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-content .center ul {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-content .center ul li {
+    margin-block: 0.5rem;
+  }
+
+  /** ########################################## */
+  /** ------------- HEADER SECTION ------------- */
+  /** ########################################## */
+
+  .header {
+    text-align: center;
+    padding-block: 3rem;
+  }
+
+  .header .container {
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-content {
+    width: 100%;
+    margin-block: 3rem;
+  }
+
+  .header-content .btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /** ########################################## */
+
+  /** ########################################## */
+  /** ------------ OUR CHEFS SECTION ----------- */
+  /** ########################################## */
+
+  .our-chefs .items-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .our-chefs .item {
+    margin-block: 1.7rem;
+  }
+
+  /** ########################################## */
+
+  /** ########################################## */
+  /** ------------- GALLERY SECTION ------------- */
+  /** ########################################## */
+
+  .gallery .gallery-container {
+    display: flex;
+    columns: 50%, 2;
+    flex-direction: column;
+  }
+
+  .gallery .gallery-container .col .item {
+    flex: 2 1 100%;
+  }
+
+  /** ########################################## */
+
+  /** ########################################## */
+  /** ----------- CONTACT US SECTION ----------- */
+  /** ########################################## */
+
+  .contact-us .contact-content .contact-items .item-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-us .contact-content .contact-items .item-container .coll {
+    width: 100%;
+  }
+
+  .contact-us .contact-content .contact-items .item-container .coll .item {
+    margin-bottom: 0rem;
+  }
+
+  .contact-us .contact-content .contact-form .form-upper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+
+  .contact-us .contact-content .contact-form .form-upper input {
+    width: 100%;
+  }
+
+  /** ########################################## */
+  /** ------------- FOOTER SECTION ------------- */
+  /** ########################################## */
+
+  .footer .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer .col-two .footer-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /** ########################################## */
+}
+
+@media only screen and (min-width: 600px) {
+  /** ########################################## */
+  /** ------------- HEADER SECTION ------------- */
+  /** ########################################## */
+
+  .header {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  .header .container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-content {
+    width: 100%;
+    margin-block: 3rem;
+  }
+
+  .header-content .btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /** ########################################## */
+
+  /** ########################################## */
+  /** ------------ OUR CHEFS SECTION ----------- */
+  /** ########################################## */
+
+  .our-chefs .items-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .our-chefs .item {
+    margin-block: 1.7rem;
+  }
+
+  /** ########################################## */
+
+  /** ########################################## */
+  /** ------------- GALLERY SECTION ------------- */
+  /** ########################################## */
+
+  .gallery .gallery-container {
+    display: flex;
+    columns: 50%, 2;
+    flex-direction: column;
+  }
+
+  .gallery .gallery-container .col .item {
+    flex: 2 1 100%;
+  }
+
+  /** ########################################## */
+
+  /** ########################################## */
+  /** ----------- CONTACT US SECTION ----------- */
+  /** ########################################## */
+
+  .contact-us .contact-content .contact-items .item-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-us .contact-content .contact-items .item-container .coll {
+    width: 100%;
+  }
+
+  .contact-us .contact-content .contact-items .item-container .coll .item {
+    margin-bottom: 0rem;
+  }
+
+  .contact-us .contact-content .contact-form .form-upper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+
+  .contact-us .contact-content .contact-form .form-upper input {
+    width: 100%;
+  }
+
+  /** ########################################## */
+  /** ------------- FOOTER SECTION ------------- */
+  /** ########################################## */
+
+  .footer .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer .col-two .footer-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /** ########################################## */
+}
+
+@media only screen and (min-width: 786px) {
+  /** ########################################## */
+  /** ------------- HEADER SECTION ------------- */
+  /** ########################################## */
+
+  .header {
+    text-align: left;
+    padding-bottom: 3rem;
+  }
+
+  .header .container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .header-content .btn-group {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .header-content .btn-primary {
+    margin-bottom: 2rem;
+  }
+
+  /** ########################################## */
+
+  /** ########################################## */
+  /** ------------- GALLERY SECTION ------------- */
+  /** ########################################## */
+
+  .our-chefs .items-container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .our-chefs .item {
+    margin-inline: 1rem;
+    flex: 1 1 30%;
+  }
+
+  /** ########################################## */
+
+  /** ########################################## */
+  /** ------------- GALLERY SECTION ------------- */
+  /** ########################################## */
+
+  .gallery .gallery-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .header-content {
+    width: 55%;
+  }
+
+  .header-content .btn-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .header-content .btn-primary {
+    margin-bottom: 1rem;
+  }
+
+  /** ########################################## */
+
+  /** ########################################## */
+  /** ----------- CONTACT US SECTION ----------- */
+  /** ########################################## */
+
+  .contact-us .contact-content .contact-items .item-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .contact-us .contact-content .contact-items .item-container .coll .item {
+    margin: 1rem;
+  }
+
+  .contact-us .contact-content .contact-form .form-upper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /** ########################################## */
+
+  /** ########################################## */
+  /** ------------- FOOTER SECTION ------------- */
+  /** ########################################## */
+
+  .footer .container {
+    color: var(--white-text-color);
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .header-image {
+    width: 40%;
+  }
+
+  /** ########################################## */
+
+  /** ########################################## */
+  /** ------------- FOOTER SECTION ------------- */
+  /** ########################################## */
+
+  .footer .col-two .footer-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-block: 0.5rem;
+  }
+}
